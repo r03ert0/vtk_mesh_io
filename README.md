@@ -1,8 +1,8 @@
 # vtk_mesh_io
 
-A simple VTK mesh reader and writer
+A simple VTK mesh reader and writer.
 
-This is how to use it
+This is how to use it:
 
 ```
 import vtk_mesh_io as vtkio
@@ -15,4 +15,4 @@ mesh = vtkio.read_vtk_mesh("data/brain.vtk")
 vtkio.write_vtk_mesh(mesh["points"], mesh["polygons"], "test/brain_output.vtk")
 ```
 
-The code passes `pylint` and uses `pytest` for running test.
+The code passes `pylint` and uses `pytest` for running tests.
